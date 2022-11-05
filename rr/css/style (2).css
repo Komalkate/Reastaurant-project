@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    /* border: 1px solid; */
+}
+.main{
+    /* border: 1px solid; */
+    width: 100%;
+    background-image: url(../images/b1.jpg);
+    background-color: black;
+    background-blend-mode:screen;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+.main .qq1 ul li:hover{
+    color: #fdd075;
+}
+.main .header1{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 20px 30px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.main .header1 div ul{
+    display: none;
+}
+.main .header1 .fa-bars{
+    border: 1px solid #EA3546;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #EA3546;
+}
+.main .hero{
+    padding: 200px 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main .hero button,.main5 .m5 button{
+    margin: 20px 0px;
+    border: 1px solid #EA3546;
+    padding: 6px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #EA3546;
+}
+.main .hero h2{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.main2{
+    width: 100%;
+    padding: 50px 10px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main2 .m1{
+    width: 400px;
+    margin: 10px 10px;
+}
+.main2 div{
+    padding: 15px 0px;
+}
+.main2 .m1 p{
+    padding: 5px 0px;
+    color: gray;
+}
+.main2 .m1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.main3{
+    width: 100%;
+    padding: 100px 10px;
+    /* border: 1px solid; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main3 .m1{
+    width: 50%;
+}
+.main3 .m1 p{
+    color:gray;
+    padding: 10px 0px 50px 0px;
+}
+.main3 .m2{
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main3 .m2 div{
+    width: 200px;
+    border-radius: 5px;
+    padding: 20px 0px;
+    margin: 15px 15px 0px 0px; 
+    border: 1px solid #F9F9F9;
+    background-color: #F9F9F9;
+    box-shadow: #F9F9F9;
+}
+.main3 .m2 div:hover{
+    background-color:#fdd075 ;
+}
+.main3 .m2 .fa{
+    color: red;
+}
+.main3 .m2 div p{
+    color: gray;
+    padding: 10px 10px;
+}
+.main4{
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.main4 .m1{
+    width: 100%;
+    padding: 200px 60px;
+    /* border: 1px solid; */
+    color: white;
+    text-align: center;
+    background-image: url(../images/b2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.main4 .m1 p{
+    color: rgb(246, 246, 246);
+    padding: 15px 10px;
+}
+.main4 .m4{
+    text-align: center;
+    width: 100%;
+    padding: 70px 10px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main4 .m4 .heading{
+    width: 60%;
+    padding: 4 0px 0px;
+}
+.main4 .m4 .heading p{
+    color: gray;
+    padding: 10px 0px;
+}
+.main4 .m4 .head{
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main4 .m4 .head div{
+    width: 300px;
+    /* border: 1px solid; */
+    margin: 5px 5px;
+    text-align: left;
+}
+.main4 .m4 .head div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.main4 .m4 .head div h2{
+    padding: 20px 0px 10px 0px;
+}
+.main4 .m4 .head div p{
+    color: gray;
+    padding-bottom: 20px;
+}
+.main5{
+    width: 100%;
+    padding: 100px 10px;
+    border: 1px solid;
+    background-image: url(../images/b3.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main5 .heading{
+    width: 60%;
+    /* border: 1px solid; */
+    padding: 30px 0px;
+}
+.main5 .heading h2{
+    color: white;
+}
+.main5 .heading p{
+    padding: 10px 0px;
+    color: rgb(234, 234, 234);
+}
+.main5 .m5{
+    width: 60%;
+    padding: 10px 0px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main5 .m5 input, .main5 .m5 select, .main5 .m5 button{
+    width: 290px;
+    padding: 10px 0px;
+    margin: 20px 10px 0px 0px;
+}
+.main6{
+    width: 100%;
+    padding: 100px 10px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.main6 .head{
+    width: 70%;
+}
+.main6 .head p{
+    color: rgb(218, 218, 218);
+    padding: 20px 0px;
+}
+.main6 .head h2 a{
+    text-decoration: none;
+    color: white;
+}
+.main6 .m6head1 div ul li{
+    text-decoration: none;
+}
+.main6 .head1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main6 .head1 div{
+    width: 300px;
+    margin: 10px 10px;
+    /* border: 1px solid; */
+    color: rgb(207, 207, 207);
+}
+.main6 .head1 div h6{
+    font-size: 20px;
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+}
+.main6 #cc ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.main6 #cc ul li{
+    list-style: none;
+}
+.main7{
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+    background-color: black;
+}
+.main7 .m7 a{
+    text-decoration: none;
+    color: red;
+}
+@media only screen and (min-width:992px){
+    .fa-bars{
+        display: none;
+    }
+    .main .header1 div ul{
+        display: block;
+    }
+    .main .header1 div ul li{
+        display: inline-block;
+        margin: 0px 15px 0px 0px;
+    }
+}
